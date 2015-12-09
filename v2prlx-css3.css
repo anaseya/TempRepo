@@ -99,7 +99,7 @@ body > section > div:first-child
     background-size: cover;  
 }
 
-body > section:nth-child(odd) > div:first-child
+body > section:nth-child(even) > div:first-child
 {
     z-index: -1;
     
@@ -108,7 +108,7 @@ body > section:nth-child(odd) > div:first-child
     transform: translateZ(-1px) scale(2);
 }
 
-body > section:nth-child(even)
+body > section:nth-child(odd)
 {
     background-attachment: fixed;
 }
